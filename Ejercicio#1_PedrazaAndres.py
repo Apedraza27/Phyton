@@ -1,3 +1,13 @@
+# Definir la función que genera la secuencia de Fibonacci
+def fibonacci(n):
+    # Inicializar los primeros dos términos de la secuencia
+    a, b = 0, 1
+    # Iterar hasta el término n
+    for i in range(n):
+        # Imprimir el término actual
+        print(a)
+        # Actualizar los términos a y b
+        a, b = b, a + b
 
 print("¡Bienvenido al generador de la Secuencia de Fibonacci!")
 
@@ -21,3 +31,4 @@ while True:
         break
 
 print("¡Gracias por usar el generador de la Secuencia de Fibonacci!")
+
