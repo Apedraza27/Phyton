@@ -5,3 +5,5 @@ def cambio_monedas(dinero):
     dinero %= 5
     monedas_1 = dinero
     return monedas_1, monedas_5, monedas_10
+dinero=(int(input("ingrese numero")))
+print (cambio_monedas(dinero))
