@@ -1,0 +1,4 @@
+#Los diferentes tipos de Python u otros objetos en general, pueden ser clasificados atendiendo a su mutabilidad. Pueden ser:
+
+#Mutables: Si permiten ser modificados una vez creados.
+#Inmutables: Si no permiten ser modificados una vez creados.
